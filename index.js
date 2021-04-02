@@ -1,5 +1,5 @@
 import express from "express";
-import accounstRouter from "./routes/accounts.js";
+import accounstRouter from "./routes/grades.js";
 import { promises as fs } from "fs";
 
 const {readFile, writeFile} = fs;
